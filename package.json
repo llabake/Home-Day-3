@@ -1,0 +1,27 @@
+{
+  "name": "Home-Day-3",
+  "version": "1.0.0",
+  "description": "Bootcamp/LOS 23 Third day offsite\r Task to get word count",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llabake/Home-Day-3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llabake/Home-Day-3/issues"
+  },
+  "homepage": "https://github.com/llabake/Home-Day-3#readme",
+  "dependencies": {
+    "jasmine": "^2.6.0",
+    "node": "0.0.0"
+  }
+}
