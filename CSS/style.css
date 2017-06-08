@@ -1,9 +1,15 @@
 
 body {
-	background: rgb(240,240,240);
-	color: rgb(20,20,20);
-	font-family: Helvetica;
-	margin: 0
+	background: transparent;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0
+	color:3e433e;
+	font-size: 18px;
+	font-weight: 500;
+	vertical-align:baseline;
 }
 
 h1{
@@ -12,12 +18,36 @@ h1{
 	color: #FF5607;
 	text-align: center;
 }
-
+h2 span {
+	color: blue;
+	padding-top: 8px;
+	padding-bottom: 21px;
+	display: inline-block;
+	}
 h2{
 	font-family: 'FFDINWebPro';
 	font-size: 17px;
+	padding-top: 8px;
+	padding-bottom: 21px;
+	line-height: 80px;
+	letter-spacing: -1px;
+	font-style: normal;
+	font-size: 75px;
+	margin-bottom: 14px;
+	font-weight: 700
+
+
 
 }
+
+h4{
+	text-align: left;
+	color: #ffffff;
+}
+
+
+
+
 
 a{
 	text-decoration: none;
@@ -28,6 +58,13 @@ nav {
     text-align: right;
     padding: 10px 0 0;
     margin: 20px 0 0;
+    position: relative;
+    left: auto;
+    float: right;
+    width: auto;
+    margin-right: 23;
+    display: block;
+    line-height: 25px;
 }
 
 nav ul {
@@ -40,10 +77,19 @@ nav ul {
     padding: 0;
     vertical-align: baseline;
     outline: 0;
+    left: auto;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    text-align: left;
+
 }
 
 nav li {
   display: inline-block;
+  float: left;
+  padding: 0
+  margin:0;
 }
 
 nav ul li a{
@@ -61,6 +107,23 @@ nav a:hover {
 }
 
 
+#cta {
+	border-color: rgb(51,89,223);
+	border-radius: 5px;
+	color: rgb(51,89,223);
+	font-style: normal;
+	font-weight: 700;
+	background-color: rgb(255,255,255); 
+	position: relative;
+	cursor: pointer;
+	vertical-align: middle;
+	line-height: 1em
+}
+
+#cta hover {
+	color:#ffffff;
+	border-color: #3359df; 
+}
 #banner{    
 	background-image:url(https://3xyh3sqxv063a8xzo5uk2zn1-wpengine.netdna-ssl.com/wp-content/uploads/2016/12/AL-50.jpg) ;
 	background-size: cover;
@@ -89,11 +152,28 @@ nav a:hover {
 	text-align: center;
 }
 
+.call-to-action{
+	background: #3359df;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 25px;
+
+}
+
+
 #footer {
 	background: black;
 	color:white;
 	font-size: 20px;
 	padding:20px;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	z-index: 100;
+	position: relative;
+	box-sizing:border-box;
 }
 
 #footer ul{
